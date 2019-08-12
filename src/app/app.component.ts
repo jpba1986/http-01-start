@@ -24,6 +24,7 @@ export class AppComponent implements OnInit {
       .subscribe(responseData => {
         console.log(responseData);
       }); 
+      
   }
 
   onFetchPosts() {
